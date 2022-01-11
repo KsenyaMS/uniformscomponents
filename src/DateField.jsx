@@ -54,7 +54,7 @@ const Date = ({
           dateValue(value, dateDisplayFormat)
         ) : (
           <DatePicker
-            preventOpenOnFocus
+            preventOpenOnFocus={true}
             customInput={<MaskedTextInput mask="99.99.9999" />}
             disabled={disabled}
             id={id}
